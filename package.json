@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "watch:sass": "node-sass src/scss/main.scss css/main.css -w",
-    "compile:sass": "node-sass src/scss/main.scss css/main.css"
+    "compile:sass": "node-sass src/scss/main.scss css/main.css",
+    "build:html": "node ./src/scripts/populate-socials.js"
   },
   "repository": {
     "type": "git",
