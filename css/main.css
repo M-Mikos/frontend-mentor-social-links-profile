@@ -365,6 +365,12 @@ h6 {
 q {
   quotes: none; }
 
+/*
+    9. Remove list marks
+*/
+ul {
+  list-style: none; }
+
 @font-face {
   font-family: Inter;
   src: url("/assets/fonts/static/Inter-Regular.ttf");
@@ -389,6 +395,9 @@ body {
 
 html {
   font-size: 62.5%; }
+
+body {
+  overflow-x: hidden; }
 
 .content-wrapper {
   min-width: 100vw;
