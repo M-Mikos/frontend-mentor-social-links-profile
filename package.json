@@ -4,7 +4,8 @@
   "description": "![Design preview for the Social links profile coding challenge](./preview.jpg)",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "node-sass src/scss/main.scss css/main.css -w",
+    "compile:sass": "node-sass src/scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
