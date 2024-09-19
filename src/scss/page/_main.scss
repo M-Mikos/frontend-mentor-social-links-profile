@@ -1,8 +1,43 @@
 .content-wrapper {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $background;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  text-align: center;
+
+  &__image {
+    clip-path: circle(50%);
+    max-width: 8rem;
+  }
+
+  &__name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  &__address {
+    color: $primary;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  &__summary {
+    color: $content--darker;
+  }
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
