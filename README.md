@@ -31,7 +31,7 @@ Users should be able to:
 
 ## Links
 
-- [Solution]()
+- [Solution](https://www.frontendmentor.io/solutions/social-links-profile-with-ssg-buttons-7htmT_zMkm)
 - [Live Site](https://marcin-m-frontend-mentor-social-link-profile.vercel.app/)
 
 ## What have I learned
