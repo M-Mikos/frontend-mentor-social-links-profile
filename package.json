@@ -1,0 +1,23 @@
+{
+  "name": "social-links-profile-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social links profile coding challenge](./preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Mikos/frontend-mentor-social-links-profile.git"
+  },
+  "author": "Marcin Mikos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Mikos/frontend-mentor-social-links-profile/issues"
+  },
+  "homepage": "https://github.com/M-Mikos/frontend-mentor-social-links-profile#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.79.1"
+  }
+}
