@@ -396,7 +396,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #141414; }
+  background-color: #141414;
+  padding: 3rem; }
 
 .person {
   display: flex;
@@ -406,9 +407,9 @@ html {
   text-align: center; }
   .person__image {
     clip-path: circle(50%);
-    max-width: 8rem; }
+    max-width: 7rem; }
   .person__name {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 600;
     margin-bottom: 1rem; }
   .person__address {
@@ -435,7 +436,7 @@ html {
 .button {
   display: block;
   padding: 1.2rem;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   color: white;
   background-color: #333333;
   text-align: center;
